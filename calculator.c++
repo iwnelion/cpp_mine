@@ -17,7 +17,7 @@ int main()
     
     //modulo only int!!
     cout<<"give me two numbers to find their modulo: ";
-    cin>>mod1>>mod2;
+    cin>>mod1>>mod2;            //scans two numbers in one line
     cout<<"modulo: "<<mod1%mod2;
 
     return 0;
