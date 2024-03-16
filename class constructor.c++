@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//class methods (functions): constructor
+//class: constructor
 class myClass{
     public:
     myClass(){          //constructor
