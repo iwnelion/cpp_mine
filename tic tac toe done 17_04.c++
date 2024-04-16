@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-//last edit: 14/04/24
+//last edit: 17/04/24
 
 const char p1='X';
 const char p2='O';
