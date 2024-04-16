@@ -6,14 +6,7 @@ using namespace std;
 
 const char p1='X';
 const char p2='O';
-char tic[3][3]={{'1','2','3'},
-                {'4','5','6'},
-                {'7','8','9'}};
-/*
-|1|2|3|
-|4|5|6|
-|7|8|9|
-*/
+char tic[3][3];
 
 void resetBoard();
 void printBoard();
@@ -24,7 +17,7 @@ char checkWin();
 void printWin(char);
 
 int main(){
-cout<<"TIC TAC TOE GAME"<<endl<<"|1|2|3|"<<endl<<"|4|5|6|"<<endl<<"|7|8|9|"<<endl;
+cout<<"TIC TAC TOE GAME"<<endl;
 char winner=' ';
 char response=' ';
 
