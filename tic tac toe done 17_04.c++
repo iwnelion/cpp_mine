@@ -154,10 +154,10 @@ char checkWin(){
 
 void printWin(char winner){
     if(winner==p1){
-        cout<<"Player 1 wins!!";
+        cout<<"Player 1 wins!! ";
     }
     else if(winner==p2){
-        cout<<"Player 2 wins!!";
+        cout<<"Player 2 wins!! ";
     }
     else{
         cout<<"It's a tie!"<<endl;
