@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//value change w funct and ptrs
 void change(int *x);
 int main(){
 int x=4;
