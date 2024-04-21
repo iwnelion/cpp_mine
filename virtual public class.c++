@@ -72,7 +72,7 @@ int main(){
 
     dev d=dev("jo","phil",23,"c++");
     //d.fixBug();     //jo fixed bug using c++
-    Teacher t=Teacher("Jo","philosophy",23,"poetry");
+    Teacher t=Teacher("Jo","philosophy",23,"poetry");               //jo is preparing poetry lesson
     t.prepareLesson();
 return 0;
 }
