@@ -17,6 +17,9 @@ class Father{
         void getFather(){
             cout<<"name: "<<Name<<endl<<"age: "<<Age<<endl<<"job: "<<Job<<endl;
         }
+        void CallFather(){
+            cout<<"Father is called"<<endl;
+        }
 };
 class Son:public Father{
     public:
@@ -28,6 +31,9 @@ class Son:public Father{
 int main(){
     Son John("John","teacher");
     John.Practice();
+    
+    Father *son1=&John;            //we create a ptr of object John and we use it to call CallFather() from Father class
+    son1->CallFather();            //calls CallFather() bc it's in parent class
 
 return 0;
 }
